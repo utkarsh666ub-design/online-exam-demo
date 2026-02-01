@@ -24,7 +24,7 @@ if (!isset($_SESSION['logged_in'])) {
 <body>
     <div class="exam-card">
         <div class="header">
-            <h2>SSC CGL Mock Test</h2>
+            <h2>SSC CGL Mock Test</h2> <a href="logout.php" style="color:red; text-decoration:none; font-weight:bold; margin-left:10px;">[Logout]</a>
             <div id="timer">10:00</div>
         </div>
         <form id="examForm" action="result.php" method="POST">
