@@ -47,8 +47,7 @@ if (!isset($_SESSION['logged_in'])) {
             <button type="submit" class="btn-submit">Submit Assessment</button>
         </form>
     </div>
-
-    <script>
+ <script>
         let time = 600; // 10 Minutes
         const display = document.getElementById('timer');
         setInterval(() => {
