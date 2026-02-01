@@ -22,6 +22,8 @@
         <p><?php echo ($score == 2) ? "Excellent Performance!" : "Keep Practicing!"; ?></p>
         <br>
         <a href="index.php">Retake Test</a>
-    </div>
+    </div> 
+    <br><br>
+<a href="logout.php" style="padding: 10px 20px; background: red; color: white; text-decoration: none; border-radius: 5px;">Final Logout</a>
 </body>
 </html>
